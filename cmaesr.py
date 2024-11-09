@@ -12,15 +12,15 @@ def felli(x):
     return np.sum(1e6 ** (np.arange(N) / (N - 1)) * x**2)
 
 # User defined input parameters (need to be edited)
-N = 10  # number of objective variables/problem dimension
-xmean = np.random.rand(N, 1)  # objective variables initial point
+N = 5  # number of objective variables/problem dimension
+xmean = np.random.rand(N)  # objective variables initial point
 sigma = 0.5  # coordinate-wise standard deviation (step-size)
 stopfitness = 1e-10  # stop if fitness < stopfitness (minimization)
 stopeval = 1e3 * N**2  # stop after stopeval number of function evaluations
 
 # Strategy parameter setting: Selection
 lambda_ = 4 + int(3 * np.log(N))  # population size, offspring number
-mu = lambda_ // 2  # number of parents/points for recombination
+mu = math.floor(lambda_/2)  # number of parents/points for recombination
 weights = np.log(mu + 0.5) - np.log(np.arange(1, mu + 1))  # recombination weights
 weights /= np.sum(weights)  # normalize recombination weights array
 mueff = np.sum(weights)**2 / np.sum(weights**2)  # variance-effective size of mu
@@ -54,7 +54,6 @@ while counteval < stopeval:
     for k in range(lambda_):
         arz[:, k] = np.random.randn(N)  # standard normally distributed vector
         arx[:, k] = xmean.flatten() + sigma * (B @ D @ arz[:, k])  # add mutation, Eq. 40
-        # Evaluate the fitness function (replace 'felli' with your actual fitness function)
         arfitness[k] = felli(arx[:,k])#f_step(arx[:, k])  # objective function call
         counteval += 1
 
