@@ -4,11 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d36891f8-ad67-4017-a0b1-48727329839e" name="Changes" comment="cma python">
+    <list default="true" id="d36891f8-ad67-4017-a0b1-48727329839e" name="Changes" comment="hoa">
+      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/optimize.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_ackley.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/axlen.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlen.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/axlencorr.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlencorr.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/axlenprec.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlenprec.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/fit.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/fit.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/sigvec.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/sigvec.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/stddev.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/stddev.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/x0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/x0.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/xmean.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xmean.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/ackley_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/ackley_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/ackley_optimization.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/f_step_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/f_step_optimization.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/hosaki_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/hosaki_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/hosaki_optimization.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/salomon_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/salomon_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/salomon_optimization.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,18 +46,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "claudiaboixader"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ElenaBlanco5&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ElenaBlanco5/CI_EA.git",
-    "accountId": "ec3fca94-c0f5-4659-bfcd-2859feda2e02"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ElenaBlanco5/CI_EA.git&quot;,
+    &quot;accountId&quot;: &quot;bcb7b2d3-6652-4a2c-9abc-efb089c342d7&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -48,64 +69,18 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "Python.cmaesr.executor": "Run",
-    "Python.test.executor": "Debug",
+    "Python.cmaesr.executor": "Debug",
+    "Python.test.executor": "Run",
+    "Python.test_ackley.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/Claudia Boixader/Desktop/master/Computational Inteligence/CI_EA"
+    "last_opened_file_path": "C:/Users/jblan/OneDrive/Documentos/ELENA/MAI/CI/pythonProject"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.test">
-    <configuration name="test (2)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.9" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Python.test" />
-      </list>
-    </recent_temporary>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\jblan\OneDrive\Documentos\ELENA\MAI\CI\pythonProject" />
+    </key>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -123,35 +98,65 @@
       <option name="presentableId" value="Default" />
       <updated>1731014607879</updated>
     </task>
-    <task id="LOCAL-00001" summary="cma python">
+    <task id="LOCAL-00001" summary="hoa">
       <option name="closed" value="true" />
-      <created>1731078649310</created>
+      <created>1731021331388</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1731078649310</updated>
+      <updated>1731021331388</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="hoa">
+      <option name="closed" value="true" />
+      <created>1731021399038</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1731021399038</updated>
+    </task>
+    <task id="LOCAL-00003" summary="hoa">
+      <option name="closed" value="true" />
+      <created>1731160659436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1731160659438</updated>
+    </task>
+    <task id="LOCAL-00004" summary="hoa">
+      <option name="closed" value="true" />
+      <created>1731164334478</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1731164334478</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="cma python" />
-    <option name="LAST_COMMIT_MESSAGE" value="cma python" />
+    <MESSAGE value="hoa" />
+    <option name="LAST_COMMIT_MESSAGE" value="hoa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cmaesr.py</url>
-          <line>76</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cmaesr.py</url>
-          <line>49</line>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-      </breakpoints>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
     </breakpoint-manager>
   </component>
 </project>
