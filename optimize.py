@@ -7,8 +7,8 @@ import functions
 
 # Ask for initial parameters
 while True:
-    print("Write the function name you want to optimize")
-    f_name = input("- Hosaki\n - Ackley\n - Salomon\n - Trid")
+    print("Enter the function name you want to optimize")
+    f_name = input("- Hosaki\n- Ackley\n- Salomon\n- Trid\n")
     f_name = f_name.lower()
     if f_name in ['hosaki','ackley','salomon','trid']: break
 

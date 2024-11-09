@@ -5,13 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d36891f8-ad67-4017-a0b1-48727329839e" name="Changes" comment="hoa">
-      <change afterPath="$PROJECT_DIR$/README" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/optimize.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_ackley.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimize.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimize.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outcmaes/axlen.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlen.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outcmaes/axlencorr.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlencorr.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outcmaes/axlenprec.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlenprec.dat" afterDir="false" />
@@ -21,15 +17,13 @@
       <change beforePath="$PROJECT_DIR$/outcmaes/x0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/x0.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outcmaes/xmean.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xmean.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/ackley_initial_guesses.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/plots/ackley_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/ackley_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/f_step_initial_guesses.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/f_step_optimization.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/hosaki_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/ackley_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/ackley_points.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plots/hosaki_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/hosaki_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/salomon_initial_guesses.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/hosaki_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/hosaki_points.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/plots/salomon_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/salomon_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/trid_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/trid_optimization.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/plots/trid_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/trid_points.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +64,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Python.cmaesr.executor": "Debug",
+    "Python.optimize.executor": "Run",
     "Python.test.executor": "Run",
     "Python.test_ackley.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -130,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731164334478</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="hoa">
+      <option name="closed" value="true" />
+      <created>1731181329692</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731181329692</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

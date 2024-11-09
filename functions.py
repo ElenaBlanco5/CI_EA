@@ -1,4 +1,5 @@
 import numpy as np
+import math
 
 def salomon(x):
     r = np.sqrt(x[0] ** 2 + x[1] ** 2)
