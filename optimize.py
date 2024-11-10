@@ -124,5 +124,5 @@ if f_name != 'trid:':
     fig.savefig(f'plots/{f_name}_points.png', format='png')
 
 # Save cma results
-alg[best_index].logger.plot()
-plt.savefig(f'plots/{f_name}_optimization.png', format='png')
+#alg[best_index].logger.plot()
+#plt.savefig(f'plots/{f_name}_optimization.png', format='png')
