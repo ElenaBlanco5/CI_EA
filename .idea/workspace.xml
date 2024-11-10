@@ -6,24 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d36891f8-ad67-4017-a0b1-48727329839e" name="Changes" comment="hoa">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/functions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/optimize.py" beforeDir="false" afterPath="$PROJECT_DIR$/optimize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/axlen.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlen.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/axlencorr.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlencorr.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/axlenprec.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/axlenprec.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/fit.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/fit.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/sigvec.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/sigvec.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/stddev.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/stddev.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/x0.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/x0.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/xmean.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xmean.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" beforeDir="false" afterPath="$PROJECT_DIR$/outcmaes/xrecentbest.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/ackley_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/ackley_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/ackley_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/ackley_points.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/hosaki_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/hosaki_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/hosaki_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/hosaki_points.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/salomon_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/salomon_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/trid_optimization.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/trid_optimization.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/plots/trid_points.png" beforeDir="false" afterPath="$PROJECT_DIR$/plots/trid_points.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +36,9 @@
     &quot;accountId&quot;: &quot;bcb7b2d3-6652-4a2c-9abc-efb089c342d7&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -69,7 +56,8 @@
     "Python.test_ackley.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/jblan/OneDrive/Documentos/ELENA/MAI/CI/pythonProject"
+    "last_opened_file_path": "C:/Users/jblan/OneDrive/Documentos/ELENA/MAI/CI/pythonProject",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -133,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731181329692</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="hoa">
+      <option name="closed" value="true" />
+      <created>1731182493686</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1731182493686</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

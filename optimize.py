@@ -38,6 +38,12 @@ while True:
     except ValueError:
         continue
 
+# Define fitness value for solution of every function
+fit_sol = {'hosaki': -2.3458,
+           'ackley': 0,
+           'salomon': 0,
+           'trid': -50}
+
 # Results dictionary
 results = {}
 for key in ['initial_sol', 'best_sol', 'best_fit', 'iter']:
@@ -75,7 +81,7 @@ for i in tqdm(range(50)):
     results['best_fit'].append(best_value)
     results['iter'].append(iter)
     alg.append(es)
-    if abs(best_value-(-50)) < 1e-4:
+    if abs(best_value-(fit_sol[f_name])) < 1e-4:
         convergence.append(i)
     elif iter < options['maxiter']:
         convergence_local.append(i)
@@ -87,33 +93,35 @@ best_index = np.argmin(results['best_fit'])
 print(f"Best solution: {results['best_sol'][best_index]}")
 print(f"Initial solution: {results['initial_sol'][best_index]}")
 print(f"Iterations: {results['iter'][best_index]}")
+print(f"{len(convergence)/50*100}% points reached the global optima\n{len(convergence_local)/50*100} points reached a local optima\n{(50-len(convergence)-len(convergence_local))/50*100} did not converge")
 
-# Save initial guesses
-fig, ax = plt.subplots(1,2, sharex=True, sharey=True, figsize=(10,5))
-conv = [results['initial_sol'][idx] for idx in convergence]
-conv_local = [results['initial_sol'][idx] for idx in convergence_local]
-no_conv = [el for i,el in enumerate(results['initial_sol']) if i not in convergence+convergence_local]
-ax[0].scatter([p[0] for p in conv], [p[1] for p in conv], color='blue', s=10, label='global conv')
-ax[0].scatter([p[0] for p in conv_local], [p[1] for p in conv_local], color='orange', s=10, label='local conv')
-ax[0].scatter([p[0] for p in no_conv], [p[1] for p in no_conv], color='red', s=10, label='no conv')
-ax[0].set_xlabel('x1')
-ax[0].set_ylabel('x2')
-ax[0].set_xticks(range(-20,20,5))
-ax[0].set_yticks(range(-20,20,5))
-ax[0].set_title('Initial points')
-ax[0].set_aspect('equal')
-ax[0].legend(loc='upper right', fontsize='small')
+if f_name != 'trid:':
+    # Save initial guesses
+    fig, ax = plt.subplots(1,2, sharex=True, sharey=True, figsize=(10,5))
+    conv = [results['initial_sol'][idx] for idx in convergence]
+    conv_local = [results['initial_sol'][idx] for idx in convergence_local]
+    no_conv = [el for i,el in enumerate(results['initial_sol']) if i not in convergence+convergence_local]
+    ax[0].scatter([p[0] for p in conv], [p[1] for p in conv], color='blue', s=10, label='global conv')
+    ax[0].scatter([p[0] for p in conv_local], [p[1] for p in conv_local], color='orange', s=10, label='local conv')
+    ax[0].scatter([p[0] for p in no_conv], [p[1] for p in no_conv], color='red', s=10, label='no conv')
+    ax[0].set_xlabel('x1')
+    ax[0].set_ylabel('x2')
+    ax[0].set_xticks(range(-20,20,5))
+    ax[0].set_yticks(range(-20,20,5))
+    ax[0].set_title('Initial points')
+    ax[0].set_aspect('equal')
+    ax[0].legend(loc='upper right', fontsize='small')
 
-# Save solution points
-conv_best_sol = [results['best_sol'][idx] for idx in convergence]
-conv_local_best_sol = [results['best_sol'][idx] for idx in convergence_local]
-ax[1].scatter([p[0] for p in conv_best_sol], [p[1] for p in conv_best_sol], color='blue', s=10)
-ax[1].scatter([p[0] for p in conv_local_best_sol], [p[1] for p in conv_local_best_sol], color='orange', s=10)
-ax[1].set_xlabel('x1')
-ax[1].set_ylabel('x2')
-ax[1].set_aspect('equal')
-ax[1].set_title('Convergence points')
-fig.savefig(f'plots/{f_name}_points.png', format='png')
+    # Save solution points
+    conv_best_sol = [results['best_sol'][idx] for idx in convergence]
+    conv_local_best_sol = [results['best_sol'][idx] for idx in convergence_local]
+    ax[1].scatter([p[0] for p in conv_best_sol], [p[1] for p in conv_best_sol], color='blue', s=10)
+    ax[1].scatter([p[0] for p in conv_local_best_sol], [p[1] for p in conv_local_best_sol], color='orange', s=10)
+    ax[1].set_xlabel('x1')
+    ax[1].set_ylabel('x2')
+    ax[1].set_aspect('equal')
+    ax[1].set_title('Convergence points')
+    fig.savefig(f'plots/{f_name}_points.png', format='png')
 
 # Save cma results
 alg[best_index].logger.plot()
